@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.Tech. student, Electrical Engineering, <a href='https://www.iitr.ac.in/'>IIT Roorkee</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  # Add a square-ish photo as assets/img/prof_pic.jpg (replacing the template one) and uncomment the next line.
+  # image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Electrical Engineering</p>
+    <p>IIT Roorkee, Uttarakhand, India</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year B.Tech. student in Electrical Engineering at IIT Roorkee. I am interested in machine learning for science and engineering, in particular surrogate modelling, uncertainty quantification and tabular foundation models, with a side interest in quantum computing.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/publications/) automatically.
+In summer 2026 I was a research intern at the Trust Lab, IIT Bombay, with Prof. Pratik Jawanpuria, studying context compression and LoRA adaptation in prior-data fitted networks (TabPFN). Before that I worked with Prof. Parikshit Pareek at IIT Roorkee on Gaussian-process surrogates that replace repeated AC power-flow solves when screening EV-charging feasibility on power grids.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am looking for research internships for summer 2027. My [CV](/cv/) and [projects](/projects/) have more detail.

@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Optional colours/links for the venue badges shown next to publications (keyed by the bibtex `abbr` field), e.g.
+# "AAAI-27 SA":
+#   url: https://aaai.org/
+#   color: "#00369f"
+{}

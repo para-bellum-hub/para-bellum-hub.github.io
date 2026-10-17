@@ -1,10 +1,13 @@
 name: Update Google Scholar Citations
 
+# Scheduled runs are off until a Google Scholar profile exists: the script exits with
+# an error when _data/socials.yml has no scholar_userid. To re-enable, add your
+# scholar_userid there and restore the schedule below.
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+  # schedule:
+  #   - cron: "0 0 * * 1" # Monday
+  #   - cron: "0 0 * * 3" # Wednesday
+  #   - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 jobs:
